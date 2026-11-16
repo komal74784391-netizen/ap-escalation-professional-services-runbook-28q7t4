@@ -1,0 +1,10 @@
+delegated_limit: 5000
+response_window_days: 10
+evidence_required:
+  - statement
+  - purchase_order
+  - goods_receipt
+  - remittance_advice
+notify_channels:
+  - email
+  - supplier_portal
